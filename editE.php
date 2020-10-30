@@ -35,7 +35,6 @@ if (isset($_GET['id']) && intval($_GET['id'])) {
         $edit = mysqli_query($conn,"UPDATE employees 
                                     SET name='$name', project_id='$projects' 
                                     WHERE id='$id'");
-        // $edit = mysqli_query($db,"update tblemp set fullname='$fullname', age='$age' where id='$id'");
 
         
         if($edit)

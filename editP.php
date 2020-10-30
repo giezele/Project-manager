@@ -31,7 +31,6 @@ if (isset($_GET['project_id']) && intval($_GET['project_id'])) {
         
         $edit = mysqli_query($conn,"UPDATE projects SET project_name='$name' WHERE project_id='$id'");
 
-        
         if($edit)
         {
             mysqli_close($conn); // Close connection
