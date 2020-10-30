@@ -1,8 +1,8 @@
 <?php
 
 $servername = "localhost";
-$username = "sprint2user";
-$password = "sprint2";
+$username = "root";
+$password = "mysql";
 $db = "sprint2";
 
 $conn = mysqli_connect($servername, $username, $password, $db); // Create connection

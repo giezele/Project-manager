@@ -54,6 +54,7 @@ table.redTable a {
   font-size: 15px;
   text-decoration: none;
   color: inherit;
+  padding: 0 1em 0 0;
 }
 table.redTable tr:nth-child(even) {
   background: #F5C8BF;
