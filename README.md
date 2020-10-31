@@ -1,5 +1,5 @@
 ## Project manager
-
+CRUD application for managing projects, employee informationg and project assignment
 
 ### Features
 * Browse Employees or Projects lists
@@ -24,4 +24,4 @@
 ![image](https://user-images.githubusercontent.com/26652268/97730643-cd095400-1adc-11eb-92cc-327086660b1b.png)
 
 5. New DB `sprint2` containing tables  `employees` and `projects` is now created
-6. Run index.php in your browser
+6. Run index.php on your apache server
