@@ -13,9 +13,8 @@ CRUD application for managing projects, employee informationg and project assign
 
 ### To run the program:
 1. Clone the repo `https://github.com/giezele/Project-manager`
-2. Start AMPPS
-3. Start MySQL application.
-4. Import data from Self-Contained File (`sprint2.sql`) as follows:
+2. Edit `dbConn.php` file with your SQL credentials if needed
+3. Import data from Self-Contained File (`sprint2.sql`) as follows:
   - click Server => Data Import 
  
 ![image](https://user-images.githubusercontent.com/26652268/97728902-c8dc3700-1ada-11eb-9357-b34b5c659c01.png)
@@ -23,5 +22,5 @@ CRUD application for managing projects, employee informationg and project assign
  
 ![image](https://user-images.githubusercontent.com/26652268/97730643-cd095400-1adc-11eb-92cc-327086660b1b.png)
 
-5. New DB `sprint2` containing tables  `employees` and `projects` is now created
-6. Run index.php on your apache server
+4. New DB `sprint2` containing tables  `employees` and `projects` is now created
+5. Run index.php on your apache server
